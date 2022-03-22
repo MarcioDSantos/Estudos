@@ -14,7 +14,7 @@ public class Binário
 
         while (binário > 0)
         {
-            numero= binário%10;
+            numero = binário%10;
             decimal += numero*Math.pow(2,potencial);
             binário = binário/10;
             potencial++;
