@@ -5,7 +5,7 @@ public class Palíndromos
     public static void main(String[] args)
     {
         Scanner input = new Scanner(System.in);
-        int invertido = 0, aux1 = 0, aux2 = 0, aux3 = 0, aux4 = 0, aux5 = 0, numero, counter = 0, verificador = 0;
+        int aux1 = 0, aux2 = 0, aux3 = 0, aux4 = 0, aux5 = 0, numero;
         System.out.println("Digite um número interior que contenha 5 digitos");
         System.out.print("Número : ");
         numero = input.nextInt();
